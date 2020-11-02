@@ -294,7 +294,7 @@ header nav ul li a:hover{
 
 .more-features .title h2{
 	color:#090909;
-	
+	text-transform: uppercase;
 }
 .more-features .title .sub-heading p{
 	color:darkgrey;
@@ -302,6 +302,49 @@ header nav ul li a:hover{
 .more-features{
 	padding: 100px 0;
 }
+.feature-list-more li{
+	position: relative;
+	margin-bottom: 35px;
+	padding-left: 80px;
+}
+.feature-list-more li:hover i{
+	color: #fff;
+	background-color: deepskyblue;
+	transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	-ms-transition: 0.5s ease-in;
+}
+.feature-list-more ul{
+	list-style: none;
+}
+.feature-icon-more{
+	position: absolute;
+	left: 0;
+}
+.feature-icon-more i{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	font-size: 35px;
+	background: #fff;
+	color: deepskyblue;
+	border-radius: 50%;
+	border: 2px solid deepskyblue;
+	line-height: 65px; 
+}
+.feature-details-more h3{
+	color: deepskyblue;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.feature-details-more p{
+	color: darkslategrey;
+	font-weight: 250;
+	
+}
+
 
 
 

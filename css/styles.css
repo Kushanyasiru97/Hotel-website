@@ -211,7 +211,7 @@ header nav ul li a:hover{
 }
 /****************************************************************feature area****************************************************/
 .feature-area{
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/Hotel.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url("../images/Hotel.jpg");
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -237,7 +237,7 @@ header nav ul li a:hover{
 	-o-transition: .4s ease;
 	-ms-transition: .4s ease;
 }
-.feature-icon:after{
+.feature-block:after{
 	content: "";
 	display:table;
 }
@@ -252,15 +252,57 @@ header nav ul li a:hover{
 
 .single-feature i.fa{
 	border: 2px solid #fff;
-	padding: 15px;
+	padding: 12px;
 	border-radius: 50px;
 	font-size: 40px;
 	background-color: #00a7dd;
 	color: white;
 	width: 70px;
 	height: 70px;
+	transition: .4s ease;
+	-webkit-transition: .4s ease;
+	-moz-transition: .4s ease;
+	-o-transition: .4s ease;
+	-ms-transition: .4s ease;
+}
+.single-feature:hover .feature-icon .fa{
+	border: 2px solid #00a7dd;
+	background: white;
+	color: deepskyblue;
+}
+.single-feature:nth-of-type(even){
+	border-right: none;
+}
+.single-feature:nth-last-child(2){
+	border-bottom: none;
+}
+.single-feature:last-child{
+	border-bottom: none;
+}
+
+.feature-area{
+	padding: 100px 0;
+}
+.feature-mockup{
+	bottom: -385px;
+	position: relative;
+}
+/*************************************************************more feature part*****************************************/
+.title .sub-heading p{
+	color: #fff;
+}
+
+.more-features .title h2{
+	color:#090909;
 	
 }
+.more-features .title .sub-heading p{
+	color:darkgrey;
+}
+.more-features{
+	padding: 100px 0;
+}
+
 
 
 

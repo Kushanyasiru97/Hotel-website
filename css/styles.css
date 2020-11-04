@@ -347,7 +347,39 @@ header nav ul li a:hover{
 .more-features img{
 	margin-left: 80px;
 }
+/***********************************************************footer-carousel*****************************************************/
+.footer-slider{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url("../images/Hotel_2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 140px;
+	padding-bottom: 120px;
+	color: #fff;
+	margin-top: -100px;
+}
+.footer-slider .carousel-indicators{
+	bottom: 70px;
+}
 
+.footer-slider .sub-heading p{
+	color: aliceblue; 
+}
+.carousel-inner img{
+	width:250px;
+	height:250px;
+	margin:auto;
+	border-radius: 100%;
+	border: 3px solid deepskyblue;
+}
+.footer-slider .carousel-indicators li.active{
+	background-color: deepskyblue;
+	
+}
+.footer-slider .carousel-indicators li{
+	border:2px solid deepskyblue;
+	
+}
 
 
 

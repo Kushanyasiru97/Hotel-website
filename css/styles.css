@@ -380,6 +380,13 @@ header nav ul li a:hover{
 	border:2px solid deepskyblue;
 	
 }
+/***********************************************************team member area****************************************************/
+.team-area{
+	padding: 100px 0px;	
+}
+.team-area .sub-heading{
+	margin-bottom: 100px;
+}
 
 
 

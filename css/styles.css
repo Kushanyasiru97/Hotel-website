@@ -494,11 +494,39 @@ header nav ul li a:hover{
 }
 /**********************************Download Section******************************/
 .download h2{
-	color:black;
+	color:wheat;
 }
 .download .sub-heading p{
-	color: gray;
+	color: white;
 }
+.download{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/Hotel_3.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-attachment: fixed;
+}
+.download .default-btn{
+	background: transparent;
+	border: 1px solid white;
+	font-size: 25px;
+	padding: 8px 40px;
+	margin: 0px 12px;
+	transition: 0.5s ease-in;
+}
+.download .default-btn:hover{
+	background: white;
+	color: deepskyblue;
+}
+.download .fa{
+	margin-right: 10px;	
+}
+.downloadnow{
+	padding: 100px 0px;
+}
+
 
 
 
